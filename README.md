@@ -7,6 +7,12 @@ This is NodeJs(Express) GraphQL server for Kyyti test assignment.
 - node server.js
 - go to http://localhost:8080/graphiql to test GraphQL Querries and Mutation
  
+## GraphQL User fields:
+ - id: ID!
+ - first_name: String!
+ - last_name: String!
+ - position: String!
+ 
 ## GraphQL Querries
 - Users -> Give the list of all users
 - User (id: ID!) -> Give the user with the same id
